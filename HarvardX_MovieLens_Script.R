@@ -57,10 +57,10 @@ rm(dl, ratings, movies, test_index, temp, movielens, removed)
 # load them from the rds files.                       #
 #=====================================================#
 # edx set:
-edx <- readRDS("edx.rds")
+#edx <- readRDS("edx.rds")
 
 # validation set:
-validation <- readRDS("validation.rds")
+#validation <- readRDS("validation.rds")
 
 
 #==============================#
