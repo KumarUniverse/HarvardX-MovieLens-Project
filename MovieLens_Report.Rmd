@@ -1,5 +1,5 @@
 ---
-title: "HarvardX MovieLens Project"
+title: "MovieLens Project"
 author: "Akash Kumar"
 date: "June 5, 2019"
 output: pdf_document
