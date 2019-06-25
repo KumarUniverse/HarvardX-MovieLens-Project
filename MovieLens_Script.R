@@ -1,9 +1,9 @@
-#=======================================#
-# Filename: HarvardX_MovieLens_Script.R #
-# Author: Akash Kumar                   #
-# Data modified: June 5, 2019           #
-# R version 3.6.0                       #
-#=======================================#
+#==============================#
+# Filename: MovieLens_Script.R #
+# Author: Akash Kumar          #
+# Data modified: June 5, 2019  #
+# R version 3.6.0              #
+#==============================#
 
 
 #===================================#
@@ -141,6 +141,7 @@ rating_table <- as.data.frame(rating_table)
 rating_table
 sum(rating_table[seq(1,9,2),2])  # 1,843,170 half star ratings.
 sum(rating_table[seq(2,10,2),2]) # 7,156,885 whole star ratings.
+
 
 #==========================#
 # Plots and Visualizations #
